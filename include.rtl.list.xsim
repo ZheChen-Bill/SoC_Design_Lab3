@@ -1,0 +1,6 @@
+# design sources
+./rtl/axi_stream.v
+./rtl/axilite.v
+./rtl/booth.v
+./rtl/bram11.v
+./rtl/fir.v
