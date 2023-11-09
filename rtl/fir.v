@@ -274,7 +274,11 @@ module fir
                 mul_start_reg = 0;
             end
             RUN_INIT: begin
-                en_reg = 0;
+                if (shift) begin
+                    en_reg = 0;
+                end else begin
+                    en_reg = 1;
+                end
                 mul_start_reg = 0;
             end
             RUN_TAP: begin
